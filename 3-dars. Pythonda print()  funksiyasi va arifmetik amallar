@@ -1,0 +1,58 @@
+# 03. dars Print funksiyasi va arifmetik amallar 
+# Muallif: Mirjalol Baxtiyorov
+# date: created 02.11.2023 19:56
+
+    # consolga Hello world natijasi chiqadi
+print("Hello world") # print funksiyasidan foydalandik
+
+print("Assalomu alekum")
+# print(Assalomu alekum)
+print('Hayrli tong!');
+print("Hello world");
+    # print("Hello world) 
+    # syntax Error
+    # print("Hello world
+    # syntax Error
+    # print('Hello world) 
+    # syntax Error
+print('Men "acer" rusumli komputer sotib oldim');
+print('Men bugun maktabdan "5" baho oldim');
+print("Men yaqinda \"Amerikaga\" ketaman")
+
+print(""" Yurtim, senga She'r bitdim bu kun
+ Qiyosingni topmadim aslo,
+ SHoirlar bor o'z yurtin butun
+ Olam aro atagan tanho 
+ (Abdulla Oripov She'ri)""")
+  
+
+print("Qish fasli kelishiga oz /n kunlar qoldi");
+
+# Arifmetik amallar
+print(2*5)
+print(4*9)
+
+print(0-3)
+print(9-4)
+
+print(9+25)
+print(11+89)
+
+print(8/5)
+print(2/1)
+
+print(2+5+6)
+print(7+9*2)
+print(8*2*1+8-14/2)
+
+print(25/6)
+print(25//6)
+
+print(2**2)
+print(2**9)
+print(3**2)
+print(5**4)
+
+print("9 ni 9 ga ko'paytirak natija", 9*9, "ga teng")
+print("8 ni 7 ga qo'shsak natija", 8+7, "ga teng")
+
