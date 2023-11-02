@@ -1,0 +1,23 @@
+"""
+Created on Thu Nov  2 21:28:07 2023
+@author: Bakhtiyorov Mirjalol
+"""
+# 04. dars.  Python Darslari _ O'zgaruvchilar (Variables)
+
+
+# name = 'Mirjalol'
+# surname = 'Bakhtiyorov'
+# born = '01.29.2003'
+# print(name)
+# print(surname)
+
+# name="Asilbek"
+# print(name)
+# name="Alisher"
+# print(name)
+
+a=5;
+c=a**4;
+print(c)
+b=9
+print(c-b**3)
