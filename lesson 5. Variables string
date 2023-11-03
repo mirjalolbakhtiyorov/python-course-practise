@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Nov  3 19:55:35 2023
+@author: bakhtiyorov Mirjalol
+"""
+# lesson 5. Variables string;
+a = 5;
+b = 10;
+c = a+b;
+print(c);
+
+name = "Mirjalol";
+surname = "Bakhtiyorov"
+name_surname = f"{name} {surname}"
+print(name_surname)
+
+name = "Aziz"
+print(f"Mening ismim {name}")
+
+name = "Jeyms";
+surname = "Bond"
+print(f"Mening ismim {name}. {name} {surname}");
+
+
+print("Hello world")
+print("hello \tworld")
+print("Hello \nworld")
+fruit = "ANor, anjir , uzum"
+c = fruit.upper();
+print(c);
+d = fruit.lower()
+print(d);
+f = fruit.capitalize()
+print(f);
+print(fruit.capitalize())
+print(F"Men {fruit.lower()} mevalarni yaxshi ko'raman.");
+
+player = "        Cristiano Ronaldo       ";
+print(player);
+print(player.strip())
+print(player.rstrip())
+print(player.lstrip())
+
+                       # input methods
+ism = input("Ismongizni kiriting \n>>>>>>>>");
+print(f"Assalomu alekum {ism}")
+
+
+
