@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Nov  4 21:29:27 2023
+
+@author: baxtiyorov Mirjalol
+"""
+
+#    Aylananing uzunligini hisoblash
+
+r=int(input("Aylananing radiusini Kiriting "))
+PI = 3.14159
+d =2*r;
+
+print("Aylananing radiusi ",d ," ga teng")
+print("Aylananing uzunligini topish formulasi: l=2PI*r")
+print(" Aylananing uzunligi ",2*PI*r, " ga teng")
+print("Aylananing yuzini topish formulasi s=pi*r**2")
+print("Aylananing yuzi ", PI*r**2, "ga teng.")
