@@ -1,0 +1,75 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov  6 09:06:21 2023
+
+@author: Baxtiyorov Mirjalol
+"""
+
+mevalar = ['olma', 'nok', 'shaftoli', "o'rik"]
+narhlar = [12000, 18000, 10900, 22000]
+sonlar = ['bir', 'ikki', 3, 4, 5, 'uzum', 'anor']
+ismlar = []  # bo'sh ro'yxat
+# print(mevalar)
+# print(mevalar[0])
+# print(mevalar[2])
+# print(mevalar[3])
+
+# print(mevalar[0].capitalize())
+# print(mevalar[2].capitalize())
+# print(mevalar[3].title())
+# print(mevalar[1].lower())
+
+# print(narhlar)
+# print(narhlar[2]+2000)
+# print(narhlar[1]+9000)
+print(mevalar)
+mevalar[1] = 'shaftoli'
+mevalar[3] = 'uzum'
+print(mevalar)
+
+car_models = ['Malibu', 'Captiva', 'Hyundai', 'Kia', 'Arlando']
+print(car_models[-1])
+print(car_models[-3])
+
+
+narhlar = [12000, 18000, 10900, 22000]
+narhlar[1] = 18000
+print(narhlar[1])
+narhlar[3] = 90000
+print(narhlar[3])
+
+mevalar = ['olma', 'anjir', 'shaftoli', "o'rik"]
+mevalar.append("tarvuz")
+mevalar.append("uzum")
+print(mevalar)
+
+cars = []  # bo'sh ro'yxat
+cars.append('Lacetti')  
+cars.append('Nexia 3') 
+cars.append('Cobalt')
+cars.append("Malibu")
+cars.append("Tracker")
+print(cars)
+
+cars.insert(2, 'Damas')
+cars.insert(4, "Spark")
+print(cars)
+
+mevalar = ['olma', 'anjir', 'shaftoli', "o'rik", 'anor']
+del mevalar[1]
+del mevalar[3]
+print(mevalar)
+
+mevalar = ['olma', 'anjir', 'shaftoli', "o'rik", 'anor']
+mevalar.remove('shaftoli')
+print(mevalar)
+
+name=['Mirjalol', 'Shaxzod', 'Asilbek', 'Sardor']
+name.remove("Shaxzod")
+print(name)
+
+bozorlik = ["yog'", 'un', 'piyoz', 'banan', "go'sht"]
+a = bozorlik.pop(3)
+print(bozorlik)
+print("Men bozordan",a,"Sotib oldim")
+
