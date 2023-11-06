@@ -1,0 +1,14 @@
+name = str(input("Ismingizni kiriting: \n>>>>>>>>>>> "));
+surname = str(input("Familiyangizmi kiriting: \n>>>>>>>>>>> "));
+year = int(input("Tug'ilgan yiligizni kiriting \n>>>>>>>>>>>"));
+age=2024-year
+adress = str(input("Tug'ilgan manzilingizni kiriting kiriting: \n>>>>>>>>>>> "))
+language = str(input("Qaysi tillarni bilasiz: \n>>>>>>>>>>>"))
+national = str(input("Millatingizni kiriting:\n>>>>>>>>>>>"))
+work = str(input("Siz qayerda ishlaysiz yoki o'qitsiz: \n>>>>>>>>>>>"))
+
+print("Assalomu alekum", name ,surname)
+print("Siz" ,year, "yida ", adress,"da tug'ilgansiz va yoshingiz",age, "da")
+print("Siz quyidagi tillarni bilasiz: ", language)
+print("Sizning millatingiz: ", national)
+print("Siz shu yerlarda ta'lim olgansiz;", work)
